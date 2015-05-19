@@ -1,1 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
 
+<channel>
+  <title>Test title</title>
+  <link>http://netponents.github.io/NETponentsWebsite/</link>
+  <description>Sample text.</description>
+  <item>
+    <title>Test title</title>
+    <link>http://netponents.github.io/NETponentsWebsite/</link>
+    <description>Sample text.</description>
+  </item>
+  <item>
+    <title>Test title 2</title>
+    <link>http://netponents.github.io/NETponentsWebsite/</link>
+    <description>Sample text 2.</description>
+  </item>
+</channel>
+</rss> 
