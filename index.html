@@ -66,8 +66,20 @@
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
       </div>
       <div class="col-sm-4">
+        <script type="text/javascript" src="src/js/xml.js"></script>
         <h3>Live feed</h3>        
-        <p>No news posted yet...</p>
+        <div class="rss" id="chan">
+          <div class="rss" id="chan_title"></div>
+          <div class="rss" id="chan_link"></div>
+          <div class="rss" id="chan_description"></div>
+          <a class="rss" id="chan_image_link" href=""></a>
+          <div class="rss" id="chan_items"></div>
+          <div class="rss" id="chan_pubDate"></div>
+          <div class="rss" id="chan_copyright"></div>
+        </div>
+        <script type="text/javascript">
+          getRSS();
+        </script>
       </div>
     </div>
     <div class="row">
