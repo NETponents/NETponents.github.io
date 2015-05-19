@@ -9,7 +9,7 @@ function getRSS()
         alert("your browser does not support AJAX");
 
     /*B*/
-    xhr.open("GET","http://netponents.github.io/NETponentsWebsite/feed.xml",true);
+    xhr.open("http://netponents.github.io/NETponentsWebsite/feed.xml");
 
     /*C*/
     xhr.setRequestHeader("Cache-Control", "no-cache");
