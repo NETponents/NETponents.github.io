@@ -8,13 +8,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <style>
-      div.col-sm-9 div {
-        height: 250px;
-        font-size: 28px;
-      }
+      body {
+      position: relative;
+  }
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 250px;
+      font-size: 28px;
+  }
     </style>
   </header>
-  <body data-spy="scroll" data-target="#cScrollspy" data-offset="20" position="relative">
+  <body data-spy="scroll" data-target="#cScrollspy" data-offset="20">
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -63,7 +70,7 @@
     </div>
     <div class="row">
        <nav class="col-sm-3" id="cScrollspy">
-        <ul class="nav nav-pills nav-stacked" position="fixed" top="20px">
+        <ul class="nav nav-pills nav-stacked">
           <li><a href="#mission">Mission</a></li>
           <li><a href="#vs">Which one do I use?</a></li>
           <li><a href="#why">Why Open Source?</a></li>
