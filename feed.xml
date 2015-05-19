@@ -2,9 +2,9 @@
 <rss version="2.0">
 
 <channel>
-  <title>Test channel title</title>
+  <title>NETponents main news feed</title>
   <link>http://netponents.github.io/NETponentsWebsite/</link>
-  <description>Sample text.</description>
+  <description>General news from the NETponents website.</description>
   <item>
     <title>Test title</title>
     <link>http://netponents.github.io/NETponentsWebsite/</link>
